@@ -14,7 +14,8 @@ while True:
     if(choice == "Y" or choice == "y"):
         num_on_dice = roll_dice()
         print(num_on_dice)
-
-    else:
+    elif(choice == "N" or choice == "n"):
         print("Thank You for playing with me :)")
         quit()
+    else:
+        print("Please enter valid choice")
